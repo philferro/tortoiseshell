@@ -1,0 +1,76 @@
+html {
+  color: white;
+  font-size: 18px;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+
+header {
+  display: flex;
+  height: 30rem;
+  width: auto;
+  background-image: url("../glasses-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+  border: dashed green;
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.titlebar{
+  display:flex;
+  position: relative;
+  top: 1rem;
+  align-items: center;
+  height: 3.5rem;
+  background-color: cadetblue;
+}
+
+.companyinfo{
+ top:0;
+}
+
+.companyinfo img{
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.companyinfo h4{
+  font-size: 1rem;
+  font-family: helvetica;
+}
+
+.navigation{
+  margin-left: auto;
+  top:0;
+}
+
+.navigation h4{
+  padding-right: 2rem;
+}
+
+.DJLS{
+
+}
+
+.DJLS h1{
+  position: relative;
+  top: 10rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: white;
+  color: gray;
+  font-size: 2rem;
+  line-height: 1.2;
+}
