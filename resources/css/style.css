@@ -4,7 +4,8 @@ html {
 }
 
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: Helvetica;
+  background-color: azure;
 }
 
 
@@ -16,13 +17,14 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-size: 100%;
-  border: dashed green;
+/* border: dashed green;*/
 }
 
 .container {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
+/*  border: dotted 1px red;*/
 }
 
 .titlebar{
@@ -59,12 +61,14 @@ header {
 }
 
 .DJLS{
-
+ display: flex;
+ justify-content: flex-end;
+ position: relative;
+ top: 10rem;
+ right: -2rem;
 }
 
 .DJLS h1{
-  position: relative;
-  top: 10rem;
   padding-left: 5rem;
   padding-right: 5rem;
   padding-top: 1.5rem;
@@ -73,4 +77,82 @@ header {
   color: gray;
   font-size: 2rem;
   line-height: 1.2;
+}
+
+.servicebar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.serviceitem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  width: 5rem;
+  height: 8rem;
+}
+
+.serviceitem h4{
+  font-size: 1rem;
+  font-family: helvetica;
+  color: black;
+  bottom: 0;
+}
+
+.serviceitem img{
+  width:5rem;
+  margin-bottom: 1rem;
+}
+
+#cfittings{
+  margin-top: 3.5rem;
+}
+
+#dfittings{
+  margin-top: 3rem;
+}
+
+.detailbar{
+  display:flex;
+  position: relative;
+  height: auto;
+  color:black;
+/*  border: cadetblue dotted 1px;*/
+}
+
+.detailboxL{
+  width:35%;
+/*  border: blue dotted 1px;*/
+}
+
+.detailboxR{
+  margin-left: auto;
+/*  border: blue dotted 1px;*/
+  width: 35%;
+}
+
+.detailboxL h1, .detailboxR h1{
+  color: white;
+  background-color: cadetblue;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  width: 10rem;
+}
+
+footer img {
+    height: 1.5rem;
+    margin-top: 5rem;
+    padding-left: 4rem;
+    padding-right: 1rem;
+}
+
+footer span{
+   color: black;
+   font-size: 1rem;
+   font-family: helvetica;
+   top:-1;
 }
