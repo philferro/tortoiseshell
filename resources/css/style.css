@@ -56,7 +56,14 @@ header {
   top:0;
 }
 
-.navigation h4{
+.altnavigation{
+  display: none;
+  margin-left: auto;
+  top:0;
+}
+
+
+.navigation h4, .altnavigation h4{
   padding-right: 2rem;
 }
 
@@ -156,3 +163,66 @@ footer span{
    font-family: helvetica;
    top:-1;
 }
+
+@media only screen and (max-width: 470px) {
+  .titlebar{
+      top: 0rem;
+  }
+  .DJLS{
+   top: 5rem;
+   right: 2rem;
+  }
+
+  .DJLS h1{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: 1.33rem;
+  }
+ .container{
+    max-width: 100%;
+  }
+
+.navigation{
+  display: none;
+}
+.altnavigation{
+  display: flex;
+}
+
+.companyinfo h4{
+  display: none;
+}
+
+.servicebar{
+  display: flex;
+  position: relative;
+  top: 3.77rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detailbar{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  top: 3.77rem;
+  position: relative;
+  height: auto;
+  color:black;
+  font-size: 0.77rem;
+}
+
+.detailboxR{
+
+  margin-left: 0;
+  width: 35%;
+}
+
+footer span{
+  display: none;
+}
+
+
+ }
